@@ -1,0 +1,4 @@
+* text=auto eol=lf
+
+# Preserve pinned upstream bytes and their integrity records on checkout.
+skills/ai-env/scripts/vendor/** -text

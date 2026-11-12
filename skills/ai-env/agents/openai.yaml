@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Env"
+  short_description: "Extend projects with source-backed local conventions"
+  default_prompt: "Use $ai-env to find the existing implementation and local examples, extend the project consistently, and verify the actual change."

@@ -1,0 +1,11 @@
+.tools/
+target/
+.ai-env/
+.agents/
+.codex/
+.DS_Store
+skills/ai-env/scripts/bin/
+__pycache__/
+*.py[cod]
+skills/ai-env/scripts/analyzers/csharp/obj/
+skills/ai-env/scripts/analyzers/csharp/bin/

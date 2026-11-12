@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "tree_format": "path-length+utf8-path+content-length+sha256-bytes;u64be;sorted-paths",
+  "note": "Hashes pin all vendored files except generated __pycache__ and .pyc. Upstream metadata and license texts are retained unchanged. Tree hashes authenticate the checked-in snapshot, not the publisher identity. Review upstream artifacts before an explicit refresh.",
+  "packages": [
+    {
+      "name": "jedi",
+      "version": "0.20.1",
+      "paths": [
+        "jedi",
+        "jedi-0.20.1.dist-info"
+      ],
+      "source": "https://pypi.org/project/jedi/0.20.1/",
+      "license": "MIT; bundled typeshed Apache-2.0 and django-stubs MIT",
+      "licenses": [
+        "jedi-0.20.1.dist-info/LICENSE.txt",
+        "jedi/third_party/typeshed/LICENSE",
+        "jedi/third_party/django-stubs/LICENSE.txt"
+      ],
+      "upstream_record": "jedi-0.20.1.dist-info/RECORD",
+      "tree": {
+        "files": 5628,
+        "bytes": 14594817,
+        "sha256": "280de87687c51c023f81e0c2dcf157bdd836503ffc5b82f710e44a309e33ee84"
+      }
+    },
+    {
+      "name": "parso",
+      "version": "0.8.7",
+      "paths": [
+        "parso",
+        "parso-0.8.7.dist-info"
+      ],
+      "source": "https://pypi.org/project/parso/0.8.7/",
+      "license": "MIT",
+      "licenses": [
+        "parso-0.8.7.dist-info/LICENSE.txt"
+      ],
+      "upstream_record": "parso-0.8.7.dist-info/RECORD",
+      "tree": {
+        "files": 38,
+        "bytes": 356223,
+        "sha256": "761768609a54fcce71effb060a9800da2fefb1009a39d1b0de4e399f9190089f"
+      }
+    },
+    {
+      "name": "typescript",
+      "version": "5.9.3",
+      "paths": [
+        "typescript"
+      ],
+      "source": "https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz",
+      "license": "Apache-2.0",
+      "licenses": [
+        "typescript/LICENSE.txt",
+        "typescript/ThirdPartyNoticeText.txt"
+      ],
+      "upstream_archive_integrity": "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==",
+      "tree": {
+        "files": 133,
+        "bytes": 23625281,
+        "sha256": "66e7661f320bac878c0d187e94d696ac43d460fa4d532d3d4cdc4935dc66a721"
+      }
+    }
+  ]
+}

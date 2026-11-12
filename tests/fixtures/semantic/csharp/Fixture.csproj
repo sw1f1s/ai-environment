@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net8.0</TargetFramework></PropertyGroup>
+  <Target Name="MustNeverExecute" BeforeTargets="BeforeBuild">
+    <WriteLinesToFile File="msbuild-was-executed.marker" Lines="forbidden" />
+    <Error Text="The semantic index must never execute this target project." />
+  </Target>
+</Project>
